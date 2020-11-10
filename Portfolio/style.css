@@ -1,7 +1,7 @@
 :root{
     --themeGrey: #3d3d3d;
-    /* --secodry-color: #6C63FF; */
-    --secodry-color: #a746e3;
+    --secodry-color: #6C63FF;
+    /* --secodry-color: #a746e3; */
     --secondry-comp: #ffffff;
 }
 body{
@@ -17,6 +17,10 @@ h4{
 }
 
 #head{
+    font-family: courgette;
+}
+
+#foot{
     font-family: courgette;
 }
 .nav-n-footer{
@@ -100,15 +104,19 @@ h4{
     display: flex;
 }
 
+.foot-img{
+    max-width: 64px;
+    margin: auto;
+}
+
 #myname{
     width: auto;
     height: 80px;
 }
 
-
-@media (prefers-color-scheme: light){
-    .bg-light{
-        background-color: darkslateblue;
+@media (prefers-color-scheme: dark){
+    #body{
+        background-color: black;
     }
 }
 
